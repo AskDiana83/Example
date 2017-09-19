@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fae60dd-285c-4bba-ab03-24bf5b076c4d">
+  <producedTypes>
+    <objectType typeId="fa1421f6-2d56-4725-b84d-01277dcb1513" valueTypeId="73076cb5-6575-4c27-89a7-1015fb11d32c">
+    </objectType>
+    <refType typeId="4a9d4bd4-0d31-4ed8-a9b0-c25b327e7865" valueTypeId="77a7c032-414d-4059-8419-292d9befae2b">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="27748794-ab35-40a0-af86-64aef85a5bc6" valueTypeId="6a175614-7ac6-48d9-aa03-ed2e7881bdef">
+    </selectionType>
+    <listType typeId="a2af8f0d-ecdc-4e54-aa09-f5d4e08500ef" valueTypeId="bd557334-9eed-4bc2-a258-7ef6b291800c">
+    </listType>
+    <managerType typeId="79e49024-d42a-4cb7-8ad5-0c71cf3c32c4" valueTypeId="eb0150f7-5cd8-4931-bfca-78a67d32ec8f">
+    </managerType>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф.И.О.</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список сотрудников</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="97be6348-6ef9-41cd-926c-7ba5c0bb8631">
+    <producedTypes>
+      <objectType typeId="511e40be-04bb-493d-bbe5-d99d3490052e" valueTypeId="1699477c-5b55-4644-b103-e48e235ad117">
+      </objectType>
+      <rowType typeId="94384921-eaa5-49a3-b01e-1c9a678808c8" valueTypeId="ed3e59d2-2553-4cb3-a2bc-739038820fff">
+      </rowType>
+    </producedTypes>
+    <name>ТрудоваяДеятельность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудовая деятельность</value>
+    </synonym>
+    <attributes uuid="c711f901-ee22-4af5-90f3-2e808d117177">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="6c32941d-7d49-4f5f-b133-54305ae85e3b">
+      <name>НачалоРаботы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало работы</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="4a944eba-fb5c-4333-81b2-f4db3a50f849">
+      <name>ОкончаниеРаботы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Окончание работы</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="d2e53bf2-7fe5-4408-bb04-b182139d3e54">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

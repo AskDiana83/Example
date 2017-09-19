@@ -5,9 +5,12 @@
     <key>ru</key>
     <value>Бухгалтерия</value>
   </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Бухгалтерия</picture>
   </picture>
   <content>CommonPicture.Бухгалтерия</content>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Номенклатура</content>
 </mdclass:Subsystem>

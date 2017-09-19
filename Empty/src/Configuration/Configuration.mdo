@@ -35,8 +35,13 @@
   <subsystems>Subsystem.УчетМатериалов</subsystems>
   <subsystems>Subsystem.ОказаниеУслуг</subsystems>
   <subsystems>Subsystem.РасчетЗарплаты</subsystems>
+  <subsystems>Subsystem.Предприятие</subsystems>
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
   <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <commonPictures>CommonPicture.РасчетЗарплаты</commonPictures>
+  <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
 </mdclass:Configuration>

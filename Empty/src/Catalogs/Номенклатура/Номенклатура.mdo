@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5259a09-51cd-4766-8e53-789ad798af6c">
+  <producedTypes>
+    <objectType typeId="6b311828-d378-4e68-8f07-6380a17aadca" valueTypeId="92659fb9-37a9-4466-a2b0-6a5a304445ed">
+    </objectType>
+    <refType typeId="16175874-d3a9-4364-915a-a7819abbf4e5" valueTypeId="e1004f12-3d34-4ef4-8e69-7e72395cbe47">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="cece2991-bace-4ec3-9525-aabd8f1a101c" valueTypeId="7c7d1817-95a6-4cb2-ad8e-ace883b774ff">
+    </selectionType>
+    <listType typeId="125b7e3d-4f18-4fa1-a010-3a5d47b81b44" valueTypeId="f755a718-2040-4d68-9073-831f6585bde7">
+    </listType>
+    <managerType typeId="f0c8e91f-4f23-409d-808c-06cb9a248a15" valueTypeId="4ef33f31-0581-4ec6-aa17-14928e245409">
+    </managerType>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГруппаНоменклатуры</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

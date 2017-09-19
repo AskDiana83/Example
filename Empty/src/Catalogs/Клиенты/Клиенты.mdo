@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6f4b271-f3b3-4df8-a5a0-9659a9ed3fd9">
+  <producedTypes>
+    <objectType typeId="fad5bb3f-2384-466f-b998-8c6778ff913e" valueTypeId="170bdb58-a82d-4bff-ba0d-da5aaf0fd791">
+    </objectType>
+    <refType typeId="8f45dacf-9e9a-40db-a701-8a13534b4a56" valueTypeId="91e57ecb-5a86-4b2b-b8c2-fb4bc4dfd2f5">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="dd78e7d9-758d-4955-b0d1-ecdb27bef21d" valueTypeId="925cbf20-f37c-4342-b044-a0c87a4f6943">
+    </selectionType>
+    <listType typeId="a1460d3b-fefa-42f3-9c24-94244708123f" valueTypeId="84afcff1-da00-48b8-9c55-22bf5c71be61">
+    </listType>
+    <managerType typeId="87addc44-f68e-4a78-b359-eba66b2f918c" valueTypeId="b4d04210-e869-44e1-a8dc-ecd70d21eb54">
+    </managerType>
+  </producedTypes>
+  <name>Клиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф.И.О.</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Клиент</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Клиенты</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
