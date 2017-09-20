@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fc52ba1-f6ee-4e14-a639-f1a46b52fc50">
+  <producedTypes>
+    <objectType typeId="b06a052c-f04f-40ce-a869-a5d3f6616a68" valueTypeId="737e671d-a748-417d-aadf-623452779b9a">
+    </objectType>
+    <refType typeId="4c2f8b70-dc01-4e43-890c-d325ad495f66" valueTypeId="ffeb9097-404e-431e-b950-74ee51177db6">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="935aac0b-83fa-432e-989b-55b63cfa5861" valueTypeId="be6b49ed-291e-4ba4-8bd1-633e27d49ab5">
+    </selectionType>
+    <listType typeId="c0403fe8-0ead-4236-9ae7-879f289d9667" valueTypeId="593eef79-75a2-4351-8754-ef86ce5015c3">
+    </listType>
+    <managerType typeId="660afd7f-13f7-41ce-a4c8-ee6f42017eca" valueTypeId="e76d51d5-9e12-4ab4-ad1a-0fb5018ee0c5">
+    </managerType>
+  </producedTypes>
+  <name>ПриходнаяНакладная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приходная накладная</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриходнаяНакладная.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приходные накладные</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="55a85d32-9cc0-4d51-9788-6d35994ff591">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Склады.Основной</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="d0622280-1ee9-4106-8d1a-43a39d123c9f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="2773e564-071a-4c0d-aa5d-9aa309fd475b">
+    <producedTypes>
+      <objectType typeId="1b38e87c-f2c9-414d-b36e-918a2f628b22" valueTypeId="2f1f5ed2-26d6-42d7-b048-61948c0bfb65">
+      </objectType>
+      <rowType typeId="c70877a5-b026-4c63-8860-57e22b6cf275" valueTypeId="8d7947c6-8361-4f7c-93a5-8c31290fe2e2">
+      </rowType>
+    </producedTypes>
+    <name>Материалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материалы</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="e2c4b260-1307-4050-a444-6de80f96861b">
+      <name>Материал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Материал</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="7093f3a9-fc04-4d73-a043-8a8a11de0b98">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="a8b20de2-d64a-4860-b36c-e306638f555e">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="f4e6986a-fa5d-483b-9177-18a1a2db83ab">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

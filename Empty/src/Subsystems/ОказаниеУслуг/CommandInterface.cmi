@@ -14,7 +14,13 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Catalog.Номенклатура.StandardCommand.CreateFolder</command>
+      <command>Catalog.Склады.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ОказаниеУслуги.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
