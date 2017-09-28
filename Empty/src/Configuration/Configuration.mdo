@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f01a88c-b734-43be-b694-4a42f66e9c04">
-  <name>Конфигурация</name>
+  <name>Empty</name>
   <comment></comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e2343b7f-6455-4bab-be47-b8fdc2602fdf"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c420ff22-8202-42cc-af3e-ec835aae9471"/>

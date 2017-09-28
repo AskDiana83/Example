@@ -143,4 +143,13 @@
       </type>
     </attributes>
   </tabularSections>
+  <commands uuid="15782697-e1ea-4281-91b8-693e81072fc8">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ОказаниеУслуги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
