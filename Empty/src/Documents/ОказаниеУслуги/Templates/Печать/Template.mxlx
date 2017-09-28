@@ -1,5 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
 	<columns>
 		<size>2</size>
 		<columnsItem>
@@ -10,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>5972592e-eb14-42ed-9869-21e57fdc256d</id>
+		<id>cf11810b-c1e1-486e-b384-09d776abcde3</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -26,8 +35,8 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>f1123af1-f012-4759-bbaa-4a4698178e08</id>
-		<size>6</size>
+		<id>67871037-7448-4790-8b25-97d4c26af96c</id>
+		<size>4</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -52,22 +61,10 @@
 				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
-		<columnsItem>
-			<index>4</index>
-			<column>
-				<formatIndex>6</formatIndex>
-			</column>
-		</columnsItem>
-		<columnsItem>
-			<index>5</index>
-			<column>
-				<formatIndex>6</formatIndex>
-			</column>
-		</columnsItem>
 	</columns>
 	<columns>
-		<id>e0947a38-3617-452b-a504-bbe808197cd5</id>
-		<size>4</size>
+		<id>6b9da862-2593-4a0a-815a-09ddcfbc89f8</id>
+		<size>6</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -77,26 +74,39 @@
 		<columnsItem>
 			<index>1</index>
 			<column>
-				<formatIndex>7</formatIndex>
+				<formatIndex>6</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>2</index>
 			<column>
-				<formatIndex>8</formatIndex>
+				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>3</index>
 			<column>
-				<formatIndex>9</formatIndex>
+				<formatIndex>8</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>8</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>8</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>5972592e-eb14-42ed-9869-21e57fdc256d</columnsID>
+			<columnsID>cf11810b-c1e1-486e-b384-09d776abcde3</columnsID>
+			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
@@ -114,7 +124,7 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>e0947a38-3617-452b-a504-bbe808197cd5</columnsID>
+			<columnsID>67871037-7448-4790-8b25-97d4c26af96c</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -128,7 +138,6 @@
 				</c>
 			</c>
 			<c>
-				<i>2</i>
 				<c>
 					<f>12</f>
 					<parameter>Номер</parameter>
@@ -139,7 +148,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>e0947a38-3617-452b-a504-bbe808197cd5</columnsID>
+			<columnsID>67871037-7448-4790-8b25-97d4c26af96c</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -153,7 +162,6 @@
 				</c>
 			</c>
 			<c>
-				<i>2</i>
 				<c>
 					<f>12</f>
 					<parameter>Дата</parameter>
@@ -164,7 +172,7 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>e0947a38-3617-452b-a504-bbe808197cd5</columnsID>
+			<columnsID>67871037-7448-4790-8b25-97d4c26af96c</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -178,7 +186,6 @@
 				</c>
 			</c>
 			<c>
-				<i>2</i>
 				<c>
 					<f>12</f>
 					<parameter>Склад</parameter>
@@ -189,7 +196,7 @@
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<columnsID>e0947a38-3617-452b-a504-bbe808197cd5</columnsID>
+			<columnsID>67871037-7448-4790-8b25-97d4c26af96c</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -203,7 +210,6 @@
 				</c>
 			</c>
 			<c>
-				<i>2</i>
 				<c>
 					<f>12</f>
 					<parameter>Клиент</parameter>
@@ -214,7 +220,7 @@
 	<rowsItem>
 		<index>8</index>
 		<row>
-			<columnsID>e0947a38-3617-452b-a504-bbe808197cd5</columnsID>
+			<columnsID>67871037-7448-4790-8b25-97d4c26af96c</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -228,7 +234,6 @@
 				</c>
 			</c>
 			<c>
-				<i>2</i>
 				<c>
 					<f>12</f>
 					<parameter>Мастер</parameter>
@@ -237,13 +242,17 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>11</index>
+		<index>12</index>
 		<row>
-			<columnsID>f1123af1-f012-4759-bbaa-4a4698178e08</columnsID>
+			<columnsID>6b9da862-2593-4a0a-815a-09ddcfbc89f8</columnsID>
 			<c>
-				<i>1</i>
 				<c>
 					<f>13</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -253,9 +262,8 @@
 				</c>
 			</c>
 			<c>
-				<i>2</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -265,9 +273,8 @@
 				</c>
 			</c>
 			<c>
-				<i>3</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -277,9 +284,8 @@
 				</c>
 			</c>
 			<c>
-				<i>4</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -289,9 +295,8 @@
 				</c>
 			</c>
 			<c>
-				<i>5</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -303,48 +308,46 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
+		<index>13</index>
 		<row>
-			<columnsID>f1123af1-f012-4759-bbaa-4a4698178e08</columnsID>
+			<columnsID>6b9da862-2593-4a0a-815a-09ddcfbc89f8</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>14</f>
+					<f>15</f>
 					<parameter>НомерСтроки</parameter>
 				</c>
 			</c>
 			<c>
-				<i>2</i>
 				<c>
-					<f>15</f>
+					<f>16</f>
 					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>
-				<i>3</i>
 				<c>
-					<f>16</f>
+					<f>17</f>
 					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
-				<i>4</i>
 				<c>
-					<f>17</f>
+					<f>18</f>
 					<parameter>Цена</parameter>
 				</c>
 			</c>
 			<c>
-				<i>5</i>
 				<c>
-					<f>17</f>
+					<f>18</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>13</height>
+	<defaultFormatIndex>19</defaultFormatIndex>
+	<height>14</height>
+	<vgRows>14</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -370,49 +373,53 @@
 		<c>2</c>
 		<w>1</w>
 	</merge>
-	<namedItem xsi:type="mxl:NamedItemCells">
-		<name>Caption</name>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Заголовок</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>1</beginRow>
 			<endRow>1</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+			<columnsID>cf11810b-c1e1-486e-b384-09d776abcde3</columnsID>
 		</area>
 	</namedItem>
-	<namedItem xsi:type="mxl:NamedItemCells">
-		<name>Header</name>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПереченьНоменклатуры</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>13</beginRow>
+			<endRow>13</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+			<columnsID>6b9da862-2593-4a0a-815a-09ddcfbc89f8</columnsID>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПереченьНоменклатурыШапка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>11</beginRow>
+			<endRow>12</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
 			<endRow>8</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
-	<namedItem xsi:type="mxl:NamedItemCells">
-		<name>ПереченьНоменклатурыHeader</name>
-		<area>
-			<type>Rows</type>
-			<beginRow>10</beginRow>
-			<endRow>11</endRow>
-		</area>
-	</namedItem>
-	<namedItem xsi:type="mxl:NamedItemCells">
-		<name>ПереченьНоменклатуры</name>
-		<area>
-			<type>Rows</type>
-			<beginRow>12</beginRow>
-			<endRow>12</endRow>
-		</area>
-	</namedItem>
-	<viewSettings>
-		<showNamedRowsAndColumns>false</showNamedRowsAndColumns>
-		<showNamedRowsAndColumnsText>false</showNamedRowsAndColumnsText>
-	</viewSettings>
-	<line width="1">
+	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
-	<font faceName="Arial" height="16.0" bold="true" kind="Absolute">
-	</font>
-	<font faceName="Arial" height="8.0" bold="true" kind="Absolute">
-	</font>
+	<font faceName="Arial" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>16</width>
 	</format>
@@ -420,43 +427,41 @@
 		<width>640</width>
 	</format>
 	<format>
-		<width>104</width>
+		<width>57</width>
 	</format>
 	<format>
-		<width>256</width>
+		<width>0</width>
 	</format>
 	<format>
-		<width>152</width>
+		<width>582</width>
+	</format>
+	<format>
+		<width>86</width>
+	</format>
+	<format>
+		<width>240</width>
 	</format>
 	<format>
 		<width>144</width>
 	</format>
 	<format>
-		<width>56</width>
-	</format>
-	<format>
-		<width>1</width>
-	</format>
-	<format>
-		<width>583</width>
-	</format>
-	<format>
 		<font>0</font>
-		<verticalAlignment>Bottom</verticalAlignment>
-		<fillType>Text</fillType>
-		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-		<autoIndent>0</autoIndent>
 	</format>
 	<format>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
-		<autoIndent>0</autoIndent>
+		<markNegatives>false</markNegatives>
+	</format>
+	<format>
+		<columnSizeChange>QuickChange</columnSizeChange>
 	</format>
 	<format>
 		<font>1</font>
@@ -464,8 +469,6 @@
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-		<autoIndent>0</autoIndent>
 		<columnSizeChange>QuickChange</columnSizeChange>
 	</format>
 	<format>
@@ -474,22 +477,14 @@
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Block</textPlacement>
 		<fillType>Parameter</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ND=5</v8:content>
-			</v8:item>
-		</format>
-		<autoIndent>0</autoIndent>
-		<columnSizeChange>QuickChange</columnSizeChange>
+		<markNegatives>false</markNegatives>
 	</format>
 	<format>
 		<border>0</border>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
-		<autoIndent>0</autoIndent>
-		<columnSizeChange>QuickChange</columnSizeChange>
+		<markNegatives>false</markNegatives>
 	</format>
 	<format>
 		<border>0</border>
@@ -497,14 +492,13 @@
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Block</textPlacement>
 		<fillType>Parameter</fillType>
+		<markNegatives>false</markNegatives>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ND=15; NFD=3</v8:content>
+				<v8:content>ЧЦ=15;ЧДЦ=3</v8:content>
 			</v8:item>
 		</format>
-		<autoIndent>0</autoIndent>
-		<columnSizeChange>QuickChange</columnSizeChange>
 	</format>
 	<format>
 		<border>0</border>
@@ -512,13 +506,15 @@
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Block</textPlacement>
 		<fillType>Parameter</fillType>
+		<markNegatives>false</markNegatives>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ND=15; NFD=2</v8:content>
+				<v8:content>ЧЦ=15;ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
-		<autoIndent>0</autoIndent>
-		<columnSizeChange>QuickChange</columnSizeChange>
+	</format>
+	<format>
+		<width>72</width>
 	</format>
 </document>

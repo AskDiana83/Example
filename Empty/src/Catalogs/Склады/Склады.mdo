@@ -18,6 +18,7 @@
     <key>ru</key>
     <value>Склады</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>

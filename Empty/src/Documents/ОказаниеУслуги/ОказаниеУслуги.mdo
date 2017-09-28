@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58a9c237-fc1a-46b8-9c5f-954a464cf8fd">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58a9c237-fc1a-46b8-9c5f-954a464cf8fd">
   <producedTypes>
     <objectType typeId="bd27adeb-2616-46ed-aa8a-ab864f27087d" valueTypeId="db2e3b32-e59d-40ec-8d44-c90a4f942876">
     </objectType>
@@ -18,12 +18,17 @@
     <key>ru</key>
     <value>Оказание услуги</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ОказаниеУслуги.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Оказание услуг</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -39,9 +44,14 @@
       <key>ru</key>
       <value>Склад</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Склады</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="aead2871-e63b-4231-aacf-f95e757db9d6">
@@ -50,9 +60,14 @@
       <key>ru</key>
       <value>Клиент</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Клиенты</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="81dad0e3-4a3a-4468-ab7a-d06367c79695">
@@ -61,9 +76,14 @@
       <key>ru</key>
       <value>Мастер</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Сотрудники</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <forms uuid="10c7c31e-ccd0-4623-be95-5e64bd73e163">
@@ -72,6 +92,7 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -87,15 +108,21 @@
       <key>ru</key>
       <value>Перечень номенклатуры</value>
     </synonym>
+    <comment></comment>
     <attributes uuid="180b22b3-6072-454f-bdb7-6aa61b92fdb6">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
         <value>Номенклатура</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>CatalogRef.Номенклатура</types>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="65c44660-9e91-4443-b493-9d32e6cdc64d">
       <name>Количество</name>
@@ -103,6 +130,7 @@
         <key>ru</key>
         <value>Количество</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -111,6 +139,10 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="5e72234a-4506-468d-8d02-306dd4343d05">
       <name>Цена</name>
@@ -118,6 +150,7 @@
         <key>ru</key>
         <value>Цена</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -126,6 +159,10 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="ff1239bd-8ee5-4649-8c00-e7ab929c6124">
       <name>Сумма</name>
@@ -133,6 +170,7 @@
         <key>ru</key>
         <value>Сумма</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -141,15 +179,25 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="c8ec0804-2ed3-4426-a374-7f46465c101f">
+    <name>Печать</name>
+    <comment></comment>
+  </templates>
   <commands uuid="15782697-e1ea-4281-91b8-693e81072fc8">
     <name>Печать</name>
+    <comment></comment>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>DocumentRef.ОказаниеУслуги</types>
     </commandParameterType>
     <parameterUseMode>Multiple</parameterUseMode>
     <representation>Auto</representation>
+    <shortcut></shortcut>
   </commands>
 </mdclass:Document>

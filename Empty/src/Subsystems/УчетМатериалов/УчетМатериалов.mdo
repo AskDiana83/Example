@@ -5,15 +5,21 @@
     <key>ru</key>
     <value>Учет материалов</value>
   </synonym>
+  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Учет материалов</value>
+  </explanation>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.УчетМатериалов</picture>
   </picture>
   <content>CommonPicture.УчетМатериалов</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Склады</content>
-  <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Document.ПриходнаяНакладная</content>
+  <content>Document.ОказаниеУслуги</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Report.Материалы</content>
 </mdclass:Subsystem>

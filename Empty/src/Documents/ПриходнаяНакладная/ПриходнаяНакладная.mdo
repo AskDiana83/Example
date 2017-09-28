@@ -18,6 +18,7 @@
     <key>ru</key>
     <value>Приходная накладная</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПриходнаяНакладная.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -43,9 +44,13 @@
       <key>ru</key>
       <value>Склад</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Склады</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Склады.Основной</value>
     </fillValue>
@@ -57,6 +62,7 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -72,6 +78,7 @@
       <key>ru</key>
       <value>Материалы</value>
     </synonym>
+    <comment></comment>
     <fillChecking>ShowError</fillChecking>
     <attributes uuid="e2c4b260-1307-4050-a444-6de80f96861b">
       <name>Материал</name>
@@ -79,10 +86,15 @@
         <key>ru</key>
         <value>Материал</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>CatalogRef.Номенклатура</types>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="7093f3a9-fc04-4d73-a043-8a8a11de0b98">
       <name>Количество</name>
@@ -90,6 +102,7 @@
         <key>ru</key>
         <value>Количество</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -98,6 +111,10 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="a8b20de2-d64a-4860-b36c-e306638f555e">
       <name>Цена</name>
@@ -105,6 +122,7 @@
         <key>ru</key>
         <value>Цена</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -113,6 +131,10 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="f4e6986a-fa5d-483b-9177-18a1a2db83ab">
       <name>Сумма</name>
@@ -120,6 +142,7 @@
         <key>ru</key>
         <value>Сумма</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -128,6 +151,10 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
 </mdclass:Document>

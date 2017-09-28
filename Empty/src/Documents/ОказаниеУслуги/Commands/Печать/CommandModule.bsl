@@ -1,29 +1,19 @@
 
-// Print command handler.
-//
-// Parameters:
-//	CommandParameter - Arbitrary - contains a reference to the object for which the print command was executed.
-//	CommandExecuteParameters - CommandExecuteParameters - command execute parameters.
-&AtClient
-Procedure CommandProcessing(CommandParameter, CommandExecuteParameters)
-	//{{_PRINT_WIZARD(Печать)
-	Spreadsheet = New SpreadsheetDocument;
-	Печать(Spreadsheet, CommandParameter);
+&НаКлиенте
+Процедура ОбработкаКоманды(ПараметрКоманды, ПараметрыВыполненияКоманды)
+	//{{_КОНСТРУКТОР_ПЕЧАТИ(Печать)
+	ТабДок = Новый ТабличныйДокумент;
+	Печать(ТабДок, ПараметрКоманды);
 
-	Spreadsheet.ShowGrid = False;
-	Spreadsheet.Protection = False;	
-	Spreadsheet.ReadOnly = False;	
-	Spreadsheet.ShowHeaders = False;
-	Spreadsheet.Show();
+	ТабДок.ОтображатьСетку = Ложь;
+	ТабДок.Защита = Ложь;
+	ТабДок.ТолькоПросмотр = Ложь;
+	ТабДок.ОтображатьЗаголовки = Ложь;
+	ТабДок.Показать();
 	//}}
-EndProcedure
+КонецПроцедуры
 
-// Print command handler on the server.
-//
-// Parameters:
-//	Spreadsheet - SpreadsheetDocument - spreadsheet document to fill out and print.
-//	CommandParameter - Arbitrary - contains a reference to the object for which the print command was executed.
-&AtServer
-Procedure Печать(Spreadsheet, CommandParameter)
-	Documents.ОказаниеУслуги.Печать(Spreadsheet, CommandParameter);
-EndProcedure
+&НаСервере
+Процедура Печать(ТабДок, ПараметрКоманды)
+	Документы.ОказаниеУслуги.Печать(ТабДок, ПараметрКоманды);
+КонецПроцедуры

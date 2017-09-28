@@ -5,8 +5,13 @@
     <key>ru</key>
     <value>Расчет зарплаты</value>
   </synonym>
+  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Расчет зарплаты</value>
+  </explanation>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РасчетЗарплаты</picture>
   </picture>

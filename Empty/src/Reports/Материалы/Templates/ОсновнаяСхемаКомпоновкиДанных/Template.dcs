@@ -7,6 +7,19 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПриход</dataPath>
+			<field>КоличествоПриход</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоНачальныйОстаток</dataPath>
+			<field>КоличествоНачальныйОстаток</field>
+			<role>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>Количество</dcscom:balanceGroupName>
+				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоРасход</dataPath>
 			<field>КоличествоРасход</field>
 		</field>
@@ -18,23 +31,10 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>КоличествоПриход</dataPath>
-			<field>КоличествоПриход</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Склад</dataPath>
 			<field>Склад</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>КоличествоНачальныйОстаток</dataPath>
-			<field>КоличествоНачальныйОстаток</field>
-			<role>
-				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName>Количество</dcscom:balanceGroupName>
-				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -48,12 +48,12 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОстаткиМатериаловОстаткиИОбороты.Склад,
-	ОстаткиМатериаловОстаткиИОбороты.Материал,
-	ОстаткиМатериаловОстаткиИОбороты.КоличествоНачальныйОстаток,
-	ОстаткиМатериаловОстаткиИОбороты.КоличествоПриход,
-	ОстаткиМатериаловОстаткиИОбороты.КоличествоРасход,
-	ОстаткиМатериаловОстаткиИОбороты.КоличествоКонечныйОстаток
+	ОстаткиМатериаловОстаткиИОбороты.Склад КАК Склад,
+	ОстаткиМатериаловОстаткиИОбороты.Материал КАК Материал,
+	ОстаткиМатериаловОстаткиИОбороты.КоличествоНачальныйОстаток КАК КоличествоНачальныйОстаток,
+	ОстаткиМатериаловОстаткиИОбороты.КоличествоПриход КАК КоличествоПриход,
+	ОстаткиМатериаловОстаткиИОбороты.КоличествоРасход КАК КоличествоРасход,
+	ОстаткиМатериаловОстаткиИОбороты.КоличествоКонечныйОстаток КАК КоличествоКонечныйОстаток
 ИЗ
 	РегистрНакопления.ОстаткиМатериалов.ОстаткиИОбороты КАК ОстаткиМатериаловОстаткиИОбороты</query>
 	</dataSet>
@@ -71,6 +71,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
 		<valueListAllowed>false</valueListAllowed>
 		<availableAsField>true</availableAsField>
@@ -91,6 +92,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
 		<valueListAllowed>false</valueListAllowed>
 		<availableAsField>true</availableAsField>
@@ -123,18 +125,16 @@
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>КонецПериода</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
-						<v8:date>2017-09-28T12:02:15</v8:date></dcscor:value>
-					<dcsset:userSettingID>6d7778b1-4188-403f-8213-fc534e1a41b9</dcsset:userSettingID>
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>aa97183a-856f-4814-9393-756835f953e8</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>НачалоПериода</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
-						<v8:date>2017-09-28T12:02:07</v8:date></dcscor:value>
-					<dcsset:userSettingID>4c03105b-092d-4dbf-8723-c3b6cd1af738</dcsset:userSettingID>
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>0ed51168-f1dc-41e6-9db9-dbb8d514bc2a</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

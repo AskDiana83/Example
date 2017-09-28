@@ -5,8 +5,13 @@
     <key>ru</key>
     <value>Оказание услуг</value>
   </synonym>
+  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Оказание услуг</value>
+  </explanation>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ОказаниеУслуг</picture>
   </picture>

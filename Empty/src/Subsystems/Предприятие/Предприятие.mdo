@@ -5,9 +5,15 @@
     <key>ru</key>
     <value>Предприятие</value>
   </synonym>
+  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Предприятие</value>
+  </explanation>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Предприятие</picture>
   </picture>
+  <content>CommonPicture.Предприятие</content>
 </mdclass:Subsystem>

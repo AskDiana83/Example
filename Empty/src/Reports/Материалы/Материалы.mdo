@@ -11,6 +11,7 @@
     <key>ru</key>
     <value>Материалы</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.Материалы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="0578c996-058b-4822-9adb-a470ccdbfee8">
@@ -19,6 +20,7 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
+    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>
